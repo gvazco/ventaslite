@@ -46,6 +46,45 @@
             display: block;
         }
     }
+
+    /**--------------------------------------------
+     *                 Sidebar
+     *---------------------------------------------**/
+    .sidebar-theme #compactSidebar {
+        background: #191e3a !important;
+    }
+
+    /**--------------------------------------------
+     *         Sidebar collapse background
+     *---------------------------------------------**/
+    .header-container .sidebarCollapse {
+        color: #3B3F5C !important;
+    }
+
+    .navbar .navbar-item .nav-item form.form-inline input.search-form-control {
+        background-color: #3B3F5C !important;
+        color: #fff !important;
+    }
+
+    @media (min-width: 768px) {
+        .navbar .navbar-item .nav-item.search-animated svg {
+
+            color: #fff !important;
+
+        }
+    }
+
+    @media (max-width: 767px) {
+        .navbar .navbar-item .nav-item.search-animated svg {
+
+            color: #191e3a !important;
+
+        }
+
+        .navbar .navbar-item .nav-item.search-animated.show-search svg {
+            color: #fff !important
+        }
+    }
 </style>
 
 @livewireStyles

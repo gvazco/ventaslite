@@ -6,7 +6,7 @@
 
             <li class="active">
 
-                <a href="/categories" class="menu-toggle" data-active="true">
+                <a href="{{ url('categories') }}" class="menu-toggle" data-active="true">
 
                     <div class="base-menu">
 
@@ -31,7 +31,7 @@
 
             <li class="active">
 
-                <a href="#" class="menu-toggle" data-active="false">
+                <a href="{{ url('products') }}" class="menu-toggle" data-active="false">
 
                     <div class="base-menu">
 
@@ -56,7 +56,7 @@
 
             <li class="active">
 
-                <a href="#" class="menu-toggle" data-active="false">
+                <a href="{{ url('pos') }}" class="menu-toggle" data-active="false">
 
                     <div class="base-menu">
 
@@ -80,7 +80,7 @@
 
             <li class="active">
 
-                <a href="#" class="menu-toggle" data-active="false">
+                <a href="{{ url('roles') }}" class="menu-toggle" data-active="false">
 
                     <div class="base-menu">
 
@@ -104,15 +104,15 @@
 
             <li class="active">
 
-                <a href="#" class="menu-toggle" data-active="false">
+                <a href="{{ url('permisos') }}" class="menu-toggle" data-active="false">
 
                     <div class="base-menu">
 
                         <div class="base-icons">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-check-square">
                                 <polyline points="9 11 12 14 22 4"></polyline>
                                 <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
                             </svg>
@@ -127,7 +127,7 @@
 
             <li class="active">
 
-                <a href="#" class="menu-toggle" data-active="false">
+                <a href="{{ url('asignar') }}" class="menu-toggle" data-active="false">
 
                     <div class="base-menu">
 
@@ -150,7 +150,7 @@
 
             <li class="active">
 
-                <a href="#" class="menu-toggle" data-active="false">
+                <a href="{{ url('users') }}" class="menu-toggle" data-active="false">
 
                     <div class="base-menu">
 
@@ -175,7 +175,7 @@
 
             <li class="active">
 
-                <a href="#" class="menu-toggle" data-active="false">
+                <a href="{{ url('coins') }}" class="menu-toggle" data-active="false">
 
                     <div class="base-menu">
 
@@ -221,7 +221,7 @@
 
             <li class="active">
 
-                <a href="#" class="menu-toggle" data-active="false">
+                <a href="{{ url('cashout') }}" class="menu-toggle" data-active="false">
 
                     <div class="base-menu">
 
